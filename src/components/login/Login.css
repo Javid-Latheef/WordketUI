@@ -1,0 +1,62 @@
+.input-group{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.acceptCheckbox{
+    cursor: pointer;
+}
+
+.acceptLabel{
+    padding-left: 10px;
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+    color: #616161;
+}
+
+.headerPanel{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.submitPanel{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.loginButton{
+    width: 100%;
+    background: rgb(64, 220, 255);
+    color: white;
+    height: 50px;
+    border: 0px;
+}
+
+.loginButton:focus{
+    outline: none;
+}
+
+.loginButton:hover{
+    background: rgb(64, 184, 255);
+}
+
+.dashImage{
+    text-align: center;
+}
+
+.dashText{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.dashImgSrc{
+    box-shadow: 10px 7px 21px -5px rgba(0,0,0,0.75);
+}

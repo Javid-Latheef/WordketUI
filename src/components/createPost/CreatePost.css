@@ -1,0 +1,76 @@
+.postContainer{
+    padding: 2rem 15rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: .25rem;
+    background-color: #fff;
+}
+
+.postContainer label{
+    color: #a8acad;
+}
+
+.postHeader{
+    text-align: center;
+    color: #17a2b8;
+    padding: 0px 0px 20px 0px;;
+    font-size: 30px;
+}
+
+#description{
+    min-height: 200px;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+.react-datepicker-wrapper input{
+    width: 100%;
+    padding: 5px;
+}
+
+.showMessage{
+    height: 32px;
+    color: #67d444;
+    text-align: center;
+}
+
+.hideMessage{
+    visibility: hidden;
+    height: 32px;
+    color: #67d444;
+    text-align: center;
+}
+
+input[type='file'] {
+    color: transparent;
+  }
+
+  
+
+.ReactTags__tagInputField{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 5px 0;
+}
+
+.tag-wrapper.ReactTags__tag{
+    border-radius: 10px;
+    padding: 4px 5px 4px 10px;
+    background: #efefef;
+}
+
+.ReactTags__remove{
+    border: 0px;
+}

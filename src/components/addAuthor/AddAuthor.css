@@ -1,0 +1,35 @@
+.authorContainer{
+    padding: 2rem 15rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: .25rem;
+    background-color: #fff;
+}
+
+
+.authorContainer label{
+    color: #a8acad;
+}
+
+.authorHeader{
+    text-align: center;
+    color: #17a2b8;
+    padding: 0px 0px 20px 0px;;
+    font-size: 30px;
+}
+
+.showMessage{
+    height: 32px;
+    color: #67d444;
+    text-align: center;
+}
+
+.hideMessage{
+    visibility: hidden;
+    height: 32px;
+    color: #67d444;
+    text-align: center;
+}
+
+input[type='file'] {
+    color: transparent;
+  }
