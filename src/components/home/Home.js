@@ -196,7 +196,7 @@ class Home extends Component {
     }
 
     getAuthors(){
-      axios.get( env + `author/list`)
+      axios.get( env + `author/list`, {headers: {'Access-Control-Allow-Origin': '*'}})
       .then(res => {
         const authors = res.data;
         this.setState({ authorList : authors });
