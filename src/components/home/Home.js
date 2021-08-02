@@ -196,8 +196,7 @@ class Home extends Component {
     }
 
     getAuthors(){
-      //axios.get( env + `author/list`)
-      axios.get(`https://jsonplaceholder.typicode.com/todos/1`)
+      axios.get( env + `author/list`)
       .then(res => {
         const authors = res.data;
         this.setState({ authorList : authors });
